@@ -1,0 +1,16 @@
+name: twotothree
+channels:
+  - defaults
+dependencies:
+  - python=3.11.*
+  - pip=23.3.*
+  - pip:
+    - numpy~=1.26
+    - jupyterlab~=3.6
+    - Pillow~=10.0
+    - open3d~=0.18
+    - torch~=2.2
+    - pandas~=2.2
+    - open3d~=0.18
+#    - plotly~=4.14
+#    - dash==2.6.1
